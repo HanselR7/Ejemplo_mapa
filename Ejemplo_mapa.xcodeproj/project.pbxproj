@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09E53DC7A2D17099FA91D7AE /* Pods_Ejemplo_mapa_Ejemplo_mapaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E25EAB1B7294C79AAED9EE /* Pods_Ejemplo_mapa_Ejemplo_mapaUITests.framework */; };
 		6C135318272B3908008E54A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C135317272B3908008E54A0 /* AppDelegate.swift */; };
 		6C13531A272B3908008E54A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C135319272B3908008E54A0 /* SceneDelegate.swift */; };
 		6C13531C272B3908008E54A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13531B272B3908008E54A0 /* ViewController.swift */; };
@@ -17,6 +18,12 @@
 		6C135332272B390B008E54A0 /* Ejemplo_mapaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C135331272B390B008E54A0 /* Ejemplo_mapaTests.swift */; };
 		6C13533C272B390B008E54A0 /* Ejemplo_mapaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13533B272B390B008E54A0 /* Ejemplo_mapaUITests.swift */; };
 		6C13533E272B390B008E54A0 /* Ejemplo_mapaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13533D272B390B008E54A0 /* Ejemplo_mapaUITestsLaunchTests.swift */; };
+		6C927BF4272B3F8B00933141 /* mapa_core_model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C927BF2272B3F8B00933141 /* mapa_core_model.xcdatamodeld */; };
+		6C927BF9272B40EC00933141 /* Mapa_controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C927BF8272B40EC00933141 /* Mapa_controllers.swift */; };
+		6C927BFB272B424700933141 /* extension_mapa_core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C927BFA272B424700933141 /* extension_mapa_core.swift */; };
+		6C927BFE272B45DE00933141 /* Funciones_Generales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C927BFD272B45DE00933141 /* Funciones_Generales.swift */; };
+		E23D62E1C59E79CACC33967C /* Pods_Ejemplo_mapaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882804CBFE3E9E0BE9048712 /* Pods_Ejemplo_mapaTests.framework */; };
+		E403C0794E0EFC3591E316F1 /* Pods_Ejemplo_mapa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF1BF82D5702F684B1710D4 /* Pods_Ejemplo_mapa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F2A8AE2D6AC323377775BBA /* Pods-Ejemplo_mapaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ejemplo_mapaTests.release.xcconfig"; path = "Target Support Files/Pods-Ejemplo_mapaTests/Pods-Ejemplo_mapaTests.release.xcconfig"; sourceTree = "<group>"; };
+		3CF1BF82D5702F684B1710D4 /* Pods_Ejemplo_mapa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ejemplo_mapa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E25EAB1B7294C79AAED9EE /* Pods_Ejemplo_mapa_Ejemplo_mapaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ejemplo_mapa_Ejemplo_mapaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B5F659FC54CA9B1BBBB772 /* Pods-Ejemplo_mapa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ejemplo_mapa.debug.xcconfig"; path = "Target Support Files/Pods-Ejemplo_mapa/Pods-Ejemplo_mapa.debug.xcconfig"; sourceTree = "<group>"; };
 		6C135314272B3908008E54A0 /* Ejemplo_mapa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ejemplo_mapa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C135317272B3908008E54A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C135319272B3908008E54A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +62,15 @@
 		6C135337272B390B008E54A0 /* Ejemplo_mapaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ejemplo_mapaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C13533B272B390B008E54A0 /* Ejemplo_mapaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejemplo_mapaUITests.swift; sourceTree = "<group>"; };
 		6C13533D272B390B008E54A0 /* Ejemplo_mapaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejemplo_mapaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C927BF3272B3F8B00933141 /* mapa_core_model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mapa_core_model.xcdatamodel; sourceTree = "<group>"; };
+		6C927BF8272B40EC00933141 /* Mapa_controllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapa_controllers.swift; sourceTree = "<group>"; };
+		6C927BFA272B424700933141 /* extension_mapa_core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_mapa_core.swift; sourceTree = "<group>"; };
+		6C927BFD272B45DE00933141 /* Funciones_Generales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Funciones_Generales.swift; sourceTree = "<group>"; };
+		6DC88CC742551BAC5AF6CDC3 /* Pods-Ejemplo_mapa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ejemplo_mapa.release.xcconfig"; path = "Target Support Files/Pods-Ejemplo_mapa/Pods-Ejemplo_mapa.release.xcconfig"; sourceTree = "<group>"; };
+		882804CBFE3E9E0BE9048712 /* Pods_Ejemplo_mapaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ejemplo_mapaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E32F92E45373868BE3B07E /* Pods-Ejemplo_mapa-Ejemplo_mapaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ejemplo_mapa-Ejemplo_mapaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ejemplo_mapa-Ejemplo_mapaUITests/Pods-Ejemplo_mapa-Ejemplo_mapaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A751DE1B3808ADAA7DE213E4 /* Pods-Ejemplo_mapa-Ejemplo_mapaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ejemplo_mapa-Ejemplo_mapaUITests.release.xcconfig"; path = "Target Support Files/Pods-Ejemplo_mapa-Ejemplo_mapaUITests/Pods-Ejemplo_mapa-Ejemplo_mapaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E624F628543C7E4C34D89C42 /* Pods-Ejemplo_mapaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ejemplo_mapaTests.debug.xcconfig"; path = "Target Support Files/Pods-Ejemplo_mapaTests/Pods-Ejemplo_mapaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E403C0794E0EFC3591E316F1 /* Pods_Ejemplo_mapa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23D62E1C59E79CACC33967C /* Pods_Ejemplo_mapaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E53DC7A2D17099FA91D7AE /* Pods_Ejemplo_mapa_Ejemplo_mapaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,8 @@
 				6C135330272B390B008E54A0 /* Ejemplo_mapaTests */,
 				6C13533A272B390B008E54A0 /* Ejemplo_mapaUITests */,
 				6C135315272B3908008E54A0 /* Products */,
+				A470F8EAFFBE3657E620BED3 /* Pods */,
+				97154D3D4F57BD2C0EB223A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +126,8 @@
 		6C135316272B3908008E54A0 /* Ejemplo_mapa */ = {
 			isa = PBXGroup;
 			children = (
+				6C927BFC272B45B100933141 /* extensiones */,
+				6C927BF5272B40B200933141 /* controladores */,
 				6C135317272B3908008E54A0 /* AppDelegate.swift */,
 				6C135319272B3908008E54A0 /* SceneDelegate.swift */,
 				6C13531B272B3908008E54A0 /* ViewController.swift */,
@@ -109,6 +136,8 @@
 				6C135325272B390A008E54A0 /* LaunchScreen.storyboard */,
 				6C135328272B390A008E54A0 /* Info.plist */,
 				6C135320272B3909008E54A0 /* Ejemplo_mapa.xcdatamodeld */,
+				6C927BF2272B3F8B00933141 /* mapa_core_model.xcdatamodeld */,
+				6C927BFA272B424700933141 /* extension_mapa_core.swift */,
 			);
 			path = Ejemplo_mapa;
 			sourceTree = "<group>";
@@ -130,6 +159,45 @@
 			path = Ejemplo_mapaUITests;
 			sourceTree = "<group>";
 		};
+		6C927BF5272B40B200933141 /* controladores */ = {
+			isa = PBXGroup;
+			children = (
+				6C927BF8272B40EC00933141 /* Mapa_controllers.swift */,
+			);
+			path = controladores;
+			sourceTree = "<group>";
+		};
+		6C927BFC272B45B100933141 /* extensiones */ = {
+			isa = PBXGroup;
+			children = (
+				6C927BFD272B45DE00933141 /* Funciones_Generales.swift */,
+			);
+			path = extensiones;
+			sourceTree = "<group>";
+		};
+		97154D3D4F57BD2C0EB223A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CF1BF82D5702F684B1710D4 /* Pods_Ejemplo_mapa.framework */,
+				44E25EAB1B7294C79AAED9EE /* Pods_Ejemplo_mapa_Ejemplo_mapaUITests.framework */,
+				882804CBFE3E9E0BE9048712 /* Pods_Ejemplo_mapaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A470F8EAFFBE3657E620BED3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56B5F659FC54CA9B1BBBB772 /* Pods-Ejemplo_mapa.debug.xcconfig */,
+				6DC88CC742551BAC5AF6CDC3 /* Pods-Ejemplo_mapa.release.xcconfig */,
+				A6E32F92E45373868BE3B07E /* Pods-Ejemplo_mapa-Ejemplo_mapaUITests.debug.xcconfig */,
+				A751DE1B3808ADAA7DE213E4 /* Pods-Ejemplo_mapa-Ejemplo_mapaUITests.release.xcconfig */,
+				E624F628543C7E4C34D89C42 /* Pods-Ejemplo_mapaTests.debug.xcconfig */,
+				2F2A8AE2D6AC323377775BBA /* Pods-Ejemplo_mapaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C135341272B390B008E54A0 /* Build configuration list for PBXNativeTarget "Ejemplo_mapa" */;
 			buildPhases = (
+				5F87D5CD5193B5F13D5746D4 /* [CP] Check Pods Manifest.lock */,
 				6C135310272B3908008E54A0 /* Sources */,
 				6C135311272B3908008E54A0 /* Frameworks */,
 				6C135312272B3908008E54A0 /* Resources */,
+				E34E7E94EF5C6309B766F24D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C135344272B390B008E54A0 /* Build configuration list for PBXNativeTarget "Ejemplo_mapaTests" */;
 			buildPhases = (
+				3FB4FEB02790FF73AFB083EC /* [CP] Check Pods Manifest.lock */,
 				6C135329272B390B008E54A0 /* Sources */,
 				6C13532A272B390B008E54A0 /* Frameworks */,
 				6C13532B272B390B008E54A0 /* Resources */,
@@ -172,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C135347272B390B008E54A0 /* Build configuration list for PBXNativeTarget "Ejemplo_mapaUITests" */;
 			buildPhases = (
+				5D9F493868970FBEAB673744 /* [CP] Check Pods Manifest.lock */,
 				6C135333272B390B008E54A0 /* Sources */,
 				6C135334272B390B008E54A0 /* Frameworks */,
 				6C135335272B390B008E54A0 /* Resources */,
+				0F6ABF29D8BCEB1F5EDC9AD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +329,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F6ABF29D8BCEB1F5EDC9AD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ejemplo_mapa-Ejemplo_mapaUITests/Pods-Ejemplo_mapa-Ejemplo_mapaUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ejemplo_mapa-Ejemplo_mapaUITests/Pods-Ejemplo_mapa-Ejemplo_mapaUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ejemplo_mapa-Ejemplo_mapaUITests/Pods-Ejemplo_mapa-Ejemplo_mapaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FB4FEB02790FF73AFB083EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ejemplo_mapaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D9F493868970FBEAB673744 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ejemplo_mapa-Ejemplo_mapaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F87D5CD5193B5F13D5746D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ejemplo_mapa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E34E7E94EF5C6309B766F24D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ejemplo_mapa/Pods-Ejemplo_mapa-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ejemplo_mapa/Pods-Ejemplo_mapa-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ejemplo_mapa/Pods-Ejemplo_mapa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6C135310272B3908008E54A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,7 +439,11 @@
 			files = (
 				6C13531C272B3908008E54A0 /* ViewController.swift in Sources */,
 				6C135318272B3908008E54A0 /* AppDelegate.swift in Sources */,
+				6C927BFB272B424700933141 /* extension_mapa_core.swift in Sources */,
+				6C927BFE272B45DE00933141 /* Funciones_Generales.swift in Sources */,
+				6C927BF9272B40EC00933141 /* Mapa_controllers.swift in Sources */,
 				6C13531A272B3908008E54A0 /* SceneDelegate.swift in Sources */,
+				6C927BF4272B3F8B00933141 /* mapa_core_model.xcdatamodeld in Sources */,
 				6C135322272B3909008E54A0 /* Ejemplo_mapa.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,7 +551,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -426,7 +606,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,6 +618,7 @@
 		};
 		6C135342272B390B008E54A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B5F659FC54CA9B1BBBB772 /* Pods-Ejemplo_mapa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +647,7 @@
 		};
 		6C135343272B390B008E54A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DC88CC742551BAC5AF6CDC3 /* Pods-Ejemplo_mapa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +676,7 @@
 		};
 		6C135345272B390B008E54A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E624F628543C7E4C34D89C42 /* Pods-Ejemplo_mapaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +702,7 @@
 		};
 		6C135346272B390B008E54A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2A8AE2D6AC323377775BBA /* Pods-Ejemplo_mapaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +728,7 @@
 		};
 		6C135348272B390B008E54A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E32F92E45373868BE3B07E /* Pods-Ejemplo_mapa-Ejemplo_mapaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +752,7 @@
 		};
 		6C135349272B390B008E54A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A751DE1B3808ADAA7DE213E4 /* Pods-Ejemplo_mapa-Ejemplo_mapaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -637,6 +823,16 @@
 			);
 			currentVersion = 6C135321272B3909008E54A0 /* Ejemplo_mapa.xcdatamodel */;
 			path = Ejemplo_mapa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		6C927BF2272B3F8B00933141 /* mapa_core_model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C927BF3272B3F8B00933141 /* mapa_core_model.xcdatamodel */,
+			);
+			currentVersion = 6C927BF3272B3F8B00933141 /* mapa_core_model.xcdatamodel */;
+			path = mapa_core_model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
